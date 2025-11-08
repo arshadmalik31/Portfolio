@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    }
+
+    #mainBody{
+        width: 100%;
+        height: 100vh;
+        background-image:
+        linear-gradient(rgb(0, 9,27),rgb(57,77,116));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nameBox{
+        width: 40%;
+       
+    }
+    .nameBox>h1{
+        color: white;
+        font-size: 80px;
+    }
+    .nameBox>p{
+        color: white;
+        font-size: 40px;
+       
+
+    }
+    nav{
+        width: 6vw;
+        height: 60vh;
+        /*border: 2px solid;*/
+        position: fixed;
+        left: 20px;
+    } 
+    nav>div{
+        
+        width: 4vw;
+        height: 4vw;
+        background: white;
+        border-radius: 50%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav>div>a>i{
+        color: rgb(0, 9,27);
+        font-size: 30px;
+    }
+    .aboutSection{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(57,77,116);
+    }
+    .aboutSection > main {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* allows content to wrap properly */
+  gap: 40px; /* spacing between boxes */
+  margin-top: 20px;
+}
+       
+        
+  .aboutSection > main > article {
+  flex: 1 1 40%; /* each takes ~40% width, wraps automatically */
+  min-width: 320px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: justify;
+}
+
+    .aboutSection > main > article h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+/* Lists inside boxes */
+.aboutSection > main > article ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aboutSection > main > article ul li {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+    .About{
+        width: 80%;
+        height: 60%;
+        /* background: white; */
+        display: flex;
+    }
+    .aboutArticle{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+        color: white;
+        
+
+    }
+    .About>div{
+        width: 50%;
+        height: 100%;
+        /*border: 3px solid black; */
+        padding: 30px;
+        background:rgba(0, 0, 0, 0.256) ;
+        border-radius: 30px;
+        margin: 10px;
+
+    }
+    .About li{
+        padding: 10px;
+        
+    }
+    .About ul{
+        padding-top: 50px;
+        
+    }
+    .About div{
+        padding: 30px;
+        
+    }
+    .aboutSection h1{
+        font-size: 50px;
+        padding-top: 50px;
+        
+    }
+    .aboutArticle>p{
+        font-size: 25px ;
+    }
+    .Projects{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(57,77,116);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Projects>main{
+        width: 80%;
+        height: 80%;
+        /*border: 3px solid;*/
+
+    }
+    .Projects>main>h1{
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        color: beige;
+        padding: 30px;
+
+    }
+    .Projects>main>article{
+        width: 100%;
+        height: 80%;
+        background-color: rgba(0, 0, 0, 0.256);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    .Projects>main>article>div{
+        width: 45%;
+        height: 45%;
+        background: rgba(0, 0, 0, 0.071);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        color: whitesmoke;
+    }
+    .Projects>main>article>div >h1{
+        font-size: 20px;
+
+    }
+    .Projects>main>article>div >p{
+        font-size: 18px;
+    }
+    .Experience, .Achievements, .Contact{
+        width: 100%;
+        height:100vh;
+        background-image:
+        linear-gradient(rgb(0, 9,27),rgb(57,77,116));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Experience>main, .Achievements>main, .Contact>main{
+        width: 80%;
+        height: 80%;
+    }
+    .Experience>main>h1{
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        color: beige;
+        padding: 30px;
+
+    }
+    .Experience>main>article{
+        width: 100%;
+        height: 80%;
+        background-color: rgba(0, 0, 0, 0.256);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
+        flex-direction: column;
+        padding: 30px;
+        color: white;
+    }
+    .Experience>main>article>h3{
+        font-size: 25px;
+    }
+    .Experience>main>article>p{
+        font-size: 20px;
+    }
+    .Achievements{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(57,77,116);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Achievements>main{
+        width: 80%;
+        height: 80%;
+
+    }
+    .Achievements>main>h1{
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        color: beige;
+        padding: 30px;
+
+    }
+    .Achievements>main>article{
+        width: 100%;
+        height: 80%;
+        background-color: rgba(0, 0, 0, 0.256);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    .Achievements>main>article>div{
+        width: 45%;
+        height: 45%;
+        background: rgba(0, 0, 0, 0.071);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        color: whitesmoke;
+    }
+    .Achievements>main>article>div >h1{
+        font-size: 20px;
+
+    }
+    .Achievements>main>article>div >p{
+        font-size: 18px;
+    }
+
+    .contact{
+        background-color:  rgb(57,77,116);
+        padding-top: 0%;
+    }
+    .contact > main > h1 {
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        color:white;
+        padding: 20px;
+      }
+      .contact > main > article {
+        width: 100%;
+        height: 80%;
+        background-color: rgb(57,77,116);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+      }
+      .info,
+      .contactForm {
+        width: 45%;
+        height: 85%;
+        background: #00000020;
+        padding: 20px;
+      }
+      .contact > main {
+        width: 80%;
+        height: 80%;
+        /* border: 3px solid; */
+        padding-left: 220px;
+        padding-bottom: 30px;
+
+      }
+      .info p {
+        font-size: 20px;
+        color: rgb(196, 196, 196);
+        padding: 10px;
+      }
+      .info a {
+        color: rgb(196, 196, 196);
+      }
+      .allLinks {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 40px;
+      }
+      .allLinks a {
+        color: rgb(196, 196, 196);
+        padding-bottom: 10px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+      }
+      input,
+      textarea {
+        color: rgb(196, 196, 196);
+        height: 50px;
+        background: #0000004e;
+        outline: none;
+        border: none;
+        padding: 10px;
+      }
+      textarea {
+        height: 200px;
+      }
+      form > a {
+        display: inline-block;
+        color: rgb(196, 196, 196);
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        background: rgb(57,77,116)
+      }
+      .about-me-h1{
+        margin-top: 10px;
+      }
